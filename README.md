@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Saarthi — AI Voice Sales Agent (ElevateBox assignment)
 
 ## Day 1 setup
