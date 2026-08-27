@@ -10,8 +10,8 @@ which handles audio very differently from a local mic anyway.
 """
 
 import os
+import wave
 import sounddevice as sd
-from scipy.io.wavfile import write as write_wav
 from deepgram import DeepgramClient, PrerecordedOptions, FileSource
 from dotenv import load_dotenv
 
@@ -31,7 +31,13 @@ def record_audio(duration_seconds: float = 5.0, output_path: str = "mic_input.wa
         dtype="int16",
     )
     sd.wait()
-    write_wav(output_path, SAMPLE_RATE, audio)
+
+    with wave.open(output_path, "wb") as wf:
+        wf.setnchannels(1)
+        wf.setsampwidth(2)  # int16 = 2 bytes
+        wf.setframerate(SAMPLE_RATE)
+        wf.writeframes(audio.tobytes())
+
     print("  [recording done]")
     return output_path
 
