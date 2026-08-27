@@ -5,3 +5,6 @@ elevenlabs==1.9.0
 deepgram-sdk==3.7.0
 python-dotenv==1.0.1
 websockets==13.1
+sounddevice==0.5.1
+scipy==1.14.1
+simpleaudio==1.0.4
