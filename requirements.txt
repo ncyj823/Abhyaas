@@ -8,3 +8,4 @@ python-dotenv==1.0.1
 websockets==13.1
 sounddevice==0.5.1
 langgraph==0.2.45
+twilio==9.3.7

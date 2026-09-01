@@ -50,14 +50,20 @@ def agent_node(state: CallState) -> CallState:
     }
 
 
+from app.whatsapp import fire_midcall_whatsapp
+
+
 def whatsapp_node(state: CallState) -> CallState:
     """
-    Day 3 placeholder. Day 4 replaces this body with a real FastMCP tool
-    call that sends WhatsApp via Twilio/WAPI, fired async so it doesn't
-    block the live call.
+    Fires a real WhatsApp message via Twilio sandbox when the lead goes HOT.
     """
-    print("  >>> [PLACEHOLDER] Would fire WhatsApp here with call context")
-    return {**state, "action_taken": "whatsapp_sent_placeholder"}
+    try:
+        sid = fire_midcall_whatsapp(state["history"], state["classification"], state["reasoning"])
+        print(f"  >>> WhatsApp sent (sid: {sid})")
+        return {**state, "action_taken": f"whatsapp_sent:{sid}"}
+    except Exception as e:
+        print(f"  >>> WhatsApp send FAILED: {e}")
+        return {**state, "action_taken": f"whatsapp_failed:{e}"}
 
 
 def schedule_node(state: CallState) -> CallState:
