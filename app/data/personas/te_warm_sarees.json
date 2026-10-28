@@ -1,0 +1,26 @@
+{
+  "id": "te_warm_sarees",
+  "name": "Anjali Reddy",
+  "business": "Handloom saree boutique in Hyderabad",
+  "language_style": "Telugu-English mix, soft-spoken, uses English for business terms",
+  "speech_lang": "te-IN",
+  "script": "telugu",
+  "temperament": "chatty and warm but non-committal, keeps saying she needs to think",
+  "true_intent": "WARM",
+  "opening_line": "హాయ్, నేను అంజలి. మా boutique కి bulk sarees కావాలి, కానీ ఇంకా decide అవ్వలేదు.",
+  "hidden_facts": {
+    "budget": "around 60-80k per quarter, but first order would be a small 25k trial",
+    "timeline": "no rush, maybe next month if designs are good",
+    "products_count": "trial order of 50 pieces, then 200 per quarter",
+    "features": "wants Pochampally ikat patterns, natural dyes, with her store label stitched in",
+    "decision_maker": "Anjali decides jointly with her mother who handles finances",
+    "barrier": "had a bad experience with colour bleeding in a previous supplier's fabric"
+  },
+  "indirect_phrases": [
+    "maa amma tho maatladali, ame finance chustaru",
+    "first small order tho try cheddaam",
+    "colours wash lo pothey kastam",
+    "designs baaguntey consider chestanu",
+    "rush emi ledu, calmly decide avudaam"
+  ]
+}

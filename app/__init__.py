@@ -1,1 +1,1 @@
-# app package
+"""Abhyaas – voice sales-call practice tool."""

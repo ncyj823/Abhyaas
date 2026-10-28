@@ -1,0 +1,26 @@
+{
+  "id": "en_warm_bakery",
+  "name": "David Thomas",
+  "business": "Artisan bakery and café in Bangalore",
+  "language_style": "Polite formal English with occasional Indian English phrases",
+  "speech_lang": "en-IN",
+  "script": "latin",
+  "temperament": "polite but non-committal, asks many questions without promising anything",
+  "true_intent": "WARM",
+  "opening_line": "Hello, this is David from Thomas Bakes. I saw your ad for bulk flour supply. Just exploring options for now.",
+  "hidden_facts": {
+    "budget": "around 35-45k per month, but wants a 10k trial order first",
+    "timeline": "current contract ends in 6 weeks, looking to switch before that",
+    "products_count": "needs 500kg of premium wheat flour and 200kg almond flour monthly",
+    "features": "must be organic-certified, consistent protein content for bread, gluten-free option for almond flour",
+    "decision_maker": "David co-owns with his wife; she handles accounts and must approve any new vendor",
+    "barrier": "current supplier gives 45-day credit; new supplier must match or beat that term"
+  },
+  "indirect_phrases": [
+    "I'll need to discuss with my wife before we commit",
+    "send me the details, I'll review and get back",
+    "our current vendor gives us pretty good credit terms",
+    "let's start with a small trial and see how it goes",
+    "I'm not in a rush, just want to have options ready"
+  ]
+}

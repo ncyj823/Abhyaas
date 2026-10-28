@@ -1,7 +1,28 @@
-.env
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
+env/
+ENV/
+
+# Environment secrets
+.env
+
+# Audio files from old project
+*.wav
 *.mp3
-*.wav 
- 
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover

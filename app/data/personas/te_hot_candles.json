@@ -1,0 +1,26 @@
+{
+  "id": "te_hot_candles",
+  "name": "Ravi Kumar",
+  "business": "Candles & Home Decor shop in Vizag",
+  "language_style": "Telugu-English mix, uses English brand/product words with Telugu sentences",
+  "speech_lang": "te-IN",
+  "script": "telugu",
+  "temperament": "polite but eager, asks many questions quickly",
+  "true_intent": "HOT",
+  "opening_line": "నమస్కారం, నేను రవి. మా షాప్ కి కొత్త candle supplier కావాలి, మీ details చెప్పండి.",
+  "hidden_facts": {
+    "budget": "around 40-50k, can stretch to 60k for a really good bulk deal",
+    "timeline": "wants first delivery within 2 weeks, Diwali stock running low",
+    "products_count": "needs 300 units across 4 fragrances",
+    "features": "must be eco-friendly soy wax, long burn time, gift-box packaging",
+    "decision_maker": "Ravi is the sole owner, decides on the spot",
+    "barrier": "burned by a previous supplier who sent inconsistent fragrance quality"
+  },
+  "indirect_phrases": [
+    "Diwali ki stock kavali, time ledu",
+    "last supplier quality tho problem ayyindi",
+    "nenu ne decide chestanu, inka evarini adagakkarledu",
+    "gift box lo unte customers ki easy",
+    "price reasonable unte ippude order pedtanu"
+  ]
+}

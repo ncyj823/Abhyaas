@@ -1,0 +1,26 @@
+{
+  "id": "hi_hot_electronics",
+  "name": "Priya Sharma",
+  "business": "Mobile & electronics repair shop in Jaipur",
+  "language_style": "Hinglish, professional but friendly, mixes Hindi grammar with English tech terms",
+  "speech_lang": "hi-IN",
+  "script": "devanagari",
+  "temperament": "direct and businesslike, respects people who know their stuff",
+  "true_intent": "HOT",
+  "opening_line": "हेलो, मैं प्रिया हूँ, जयपुर में मेरी electronics repair shop है। मुझे spare parts का regular supplier चाहिए।",
+  "hidden_facts": {
+    "budget": "1.5-2 lakh per month for regular orders, ready to place first order of 50k today",
+    "timeline": "needs first shipment within 5 days, current supplier ghosted her",
+    "products_count": "around 500 pieces per month across phone screens, batteries, charging ports",
+    "features": "needs OEM-grade parts with 30-day replacement warranty, proper invoice with GST",
+    "decision_maker": "Priya is sole owner, makes all decisions herself",
+    "barrier": "worried about fake parts being passed off as OEM, wants a sample batch first"
+  },
+  "indirect_phrases": [
+    "purana supplier ne ghosted kar diya, urgently chahiye",
+    "agar quality sahi hai toh aaj hi order de dungi",
+    "GST bill milega na? mujhe proper invoice chahiye",
+    "pehle ek sample batch bhejo, phir monthly order",
+    "kitne din mein deliver kar sakte ho?"
+  ]
+}

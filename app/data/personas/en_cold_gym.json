@@ -1,0 +1,26 @@
+{
+  "id": "en_cold_gym",
+  "name": "Sneha Iyer",
+  "business": "Small home gym equipment rental in Chennai",
+  "language_style": "Crisp English, slightly impatient, corporate tone",
+  "speech_lang": "en-IN",
+  "script": "latin",
+  "temperament": "rushed and dismissive, clearly not interested but too polite to hang up immediately",
+  "true_intent": "COLD",
+  "opening_line": "Hi, Sneha here. Someone from your team called earlier. I have two minutes, go ahead.",
+  "hidden_facts": {
+    "budget": "zero budget allocated for new equipment this quarter",
+    "timeline": "might revisit in 6 months when lease renews, not before",
+    "products_count": "hypothetically would need 20 dumbbells and 5 benches, but not buying now",
+    "features": "only interested in commercial-grade, rubber-coated equipment if she ever buys",
+    "decision_maker": "Sneha's business partner handles all purchasing, Sneha only does operations",
+    "barrier": "their current equipment is leased and they're locked in for 6 more months"
+  },
+  "indirect_phrases": [
+    "I'm not the right person for purchasing decisions",
+    "we're locked into a lease right now",
+    "maybe in six months, call me then",
+    "I really don't have time for this today",
+    "just email me the catalogue, I'll forward it to my partner"
+  ]
+}
